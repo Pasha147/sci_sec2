@@ -14,9 +14,11 @@ function getListContent() {
     // li.append(...[date, title, text]);
     li.innerHTML = `
     <p>${news[i].date}</p>
+    <hr/>
     <h2>${news[i].title}</h2>
     <p>${news[i].text}</p>
     `;
+    li.className='newsArticle'
     result.push(li);
   }
 

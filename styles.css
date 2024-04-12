@@ -1,0 +1,21 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+h1, h2 {
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+.newsArticle {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 10px #1e2828b8;
+  margin: 1rem 0.5rem;
+}
+.newsArticle p{
+    margin: 0.5rem 0;
+}
